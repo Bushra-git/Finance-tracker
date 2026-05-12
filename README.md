@@ -2,7 +2,7 @@
 
 A production-ready Finance Tracker web application built with the MERN stack (MongoDB, Express.js, React.js, Node.js) and styled with Tailwind CSS.
 
-## 🚀 Features
+##  Features
 
 - **User Authentication**: JWT-based authentication with email verification via OTP
 - **Transaction Management**: Add, view, filter, sort, and delete income/expense transactions
@@ -133,7 +133,7 @@ Finance_Mern/
 - Sign up with a new account (you'll receive an OTP via email)
 - Verify your email and start tracking your finances!
 
-## 🔐 Authentication Flow
+##  Authentication Flow
 
 ### Registration
 
@@ -155,7 +155,7 @@ Finance_Mern/
 3. User verifies OTP and sets new password
 4. User can then log in with new password
 
-## 💰 Transaction Management
+## Transaction Management
 
 ### Features
 
@@ -173,7 +173,7 @@ Finance_Mern/
 - **Delete Transactions**: Remove unwanted transactions with confirmation
 - **Financial Summary**: Real-time totals for income, expenses, and net balance
 
-## 🎨 UI/UX Design
+##  UI/UX Design
 
 - **Color Scheme**:
   - Navy background (#0f172a)
@@ -188,7 +188,7 @@ Finance_Mern/
   - Loading spinners for async operations
   - Inline form validation
 
-## 📚 API Endpoints
+##  API Endpoints
 
 ### Authentication Routes (`/api/auth`)
 
@@ -210,7 +210,7 @@ Finance_Mern/
 - `POST /send-otp` - Send OTP for password change
 - `PATCH /change-password` - Change password with OTP verification
 
-## 📋 Required Environment Variables
+##  Required Environment Variables
 
 ```
 MONGO_URI=mongodb+srv://username:password@cluster.mongodb.net/finance-tracker
@@ -223,7 +223,7 @@ PORT=5000
 NODE_ENV=development
 ```
 
-## 🚀 Production Deployment
+##  Production Deployment
 
 1. **Build the frontend**
 
@@ -250,7 +250,7 @@ NODE_ENV=development
    - Set build command: `npm run build`
    - Set publish directory: `dist`
 
-## 🔒 Security Features
+##  Security Features
 
 - JWT-based authentication with httpOnly cookies (optional)
 - Password hashing with bcryptjs (10 salt rounds)
@@ -260,7 +260,7 @@ NODE_ENV=development
 - Input validation on backend
 - Secure cookie handling
 
-## 📦 Dependencies
+##  Dependencies
 
 ### Backend
 
@@ -281,7 +281,7 @@ NODE_ENV=development
 - react-hot-toast: Toast notifications
 - tailwindcss: Utility-first CSS
 
-## 📝 Notes
+##  Notes
 
 - OTP is valid for 10 minutes
 - Transactions are paginated with 10 items per page
@@ -289,18 +289,11 @@ NODE_ENV=development
 - All amounts support up to 2 decimal places
 - Dates are stored and displayed in ISO 8601 format
 
-## 🤝 Contributing
+# Contributing
 
 Feel free to submit issues and pull requests to improve the application.
 
-## 📄 License
+ License
 
 MIT License
 
-## 👨‍💻 Author
-
-Built with ❤️ using MERN Stack
-
----
-
-**Happy tracking! 💰**
